@@ -1,0 +1,14 @@
+.employee-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #e9e5cd;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.employee-card img {
+    margin-right: 10px;
+    border-radius: 5px;
+    position: relative;
+}

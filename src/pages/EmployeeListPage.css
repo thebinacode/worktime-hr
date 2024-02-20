@@ -1,0 +1,16 @@
+.search-box-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input, .search-input:focus, .search-input:active  {
+    border: 1px solid gray;
+    border-radius: 2px;
+    box-shadow: none;
+}
+
+.add-employee-button {
+    margin-left: 4px;
+    height: 40px;
+    width: 100px;
+}
