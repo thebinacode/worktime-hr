@@ -1,8 +1,10 @@
 import './EmployeeItemTile.css'
 
-const EmployeeItemTile = () => {
+const EmployeeItemTile = ({onEmployeeItemClicked}) => {
     return (
-        <div className="employee-card">
+        <div className="employee-card" onClick={() => {
+            onEmployeeItemClicked()
+        }}>
             <img src="https://worktime.pythonanywhere.com/media/uploads/logos/20c879bb-02c9-4323-85dd-aa184abc770f.jpg"
                  width="100" height="100"/>
             <div>
